@@ -7,7 +7,7 @@ void turnOnRelay1();
 void turnOnRelay2();
 void turnOnRelay3();
 
-TickTwo timer1(turnOnRelay2, 60000, 1, MILLIS);
+TickTwo timer1(turnOnRelay2, 600000, 1, MILLIS);
 TickTwo timer2(turnOnRelay3, 10000, 1, MILLIS);
 TickTwo timer3(turnOnRelay1, 10000, 1, MILLIS);
 
